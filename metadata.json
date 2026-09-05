@@ -1,0 +1,6 @@
+{
+  "name": "Zeylon Harmony",
+  "description": "Artisanal single-origin Ceylon spices and heirloom natural vanilla showcase with harvest provenance and sensory tasting matrices.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}

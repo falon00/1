@@ -1,0 +1,69 @@
+@import "tailwindcss";
+
+@theme {
+  --font-serif: "Playfair Display", Georgia, serif;
+  --font-sans: "Plus Jakarta Sans", system-ui, -apple-system, sans-serif;
+
+  --color-surface: #fbf9f4;
+  --color-surface-dim: #dbdad5;
+  --color-surface-container-low: #f5f3ee;
+  --color-surface-container: #f0eee9;
+  --color-surface-container-high: #eae8e3;
+  --color-surface-container-highest: #e4e2dd;
+  
+  --color-forest-900: #012d18;
+  --color-forest-800: #143422;
+  --color-forest-700: #1b432c;
+  --color-forest-600: #2a5f41;
+  --color-forest-100: #c0edcc;
+
+  --color-cinnamon-800: #5a3825;
+  --color-cinnamon-700: #794527;
+  --color-cinnamon-600: #8c5535;
+  --color-cinnamon-200: #feb68f;
+  --color-cinnamon-100: #ffdbca;
+
+  --color-leaf-700: #1d2a00;
+  --color-leaf-500: #7fa038;
+  --color-leaf-400: #94ba42;
+  --color-leaf-200: #cbf07d;
+
+  --color-brass-600: #b58d3c;
+  --color-brass-500: #c8a253;
+  --color-brass-400: #dfb96c;
+  --color-brass-100: #fbf3dc;
+
+  --color-charcoal-900: #18221b;
+  --color-charcoal-700: #414942;
+  --color-charcoal-500: #727972;
+}
+
+@layer base {
+  body {
+    font-family: var(--font-sans);
+    background-color: var(--color-surface);
+    color: var(--color-charcoal-900);
+  }
+
+  h1, h2, h3, h4, .font-serif {
+    font-family: var(--font-serif);
+  }
+}
+
+/* Custom Botanical Shadows */
+.shadow-botanical-sm {
+  box-shadow: 0 2px 8px -2px rgba(20, 52, 34, 0.05), 0 1px 3px 0 rgba(140, 85, 53, 0.03);
+}
+
+.shadow-botanical-md {
+  box-shadow: 0 12px 28px -6px rgba(20, 52, 34, 0.08), 0 4px 10px -2px rgba(90, 56, 37, 0.04);
+}
+
+.shadow-botanical-lg {
+  box-shadow: 0 24px 48px -12px rgba(20, 52, 34, 0.16), 0 8px 16px -4px rgba(27, 67, 44, 0.06);
+}
+
+/* Botanical Subtle Paper Border */
+.border-paper {
+  border-color: rgba(27, 67, 44, 0.08);
+}
